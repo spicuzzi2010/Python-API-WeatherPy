@@ -5,27 +5,42 @@ Using Python requests, APIs, and JSON traversals to answer questions about the w
 The [WeatherPy Notebook](./WeatherPy.ipynb) contains Python code to visualize the weather of 500+ cities across the world of varying distance from the equator using the OpenWeatherMap API. The first sections contains a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
-![Temperature (F) vs. Latitude](./output_data/Latitude vs. Temperature.png)
+![Temperature (F) vs. Latitude](./output_data/Latitude_vs_Temperature.png)
 
 * Humidity (%) vs. Latitude
-![Humidity (%) vs. Latitude](./output_data/Latitude vs. Humidity.png)
+![Humidity (%) vs. Latitude](./output_data/Latitude_vs_Humidity.png)
 
 * Cloudiness (%) vs. Latitude
-![Cloudiness (%) vs. Latitude](./output_data/Latitude vs. Cloudiness.png)
+![Cloudiness (%) vs. Latitude](./output_data/Latitude_vs_Cloudiness.png)
 
 * Wind Speed (mph) vs. Latitude
-![Wind Speed (mph) vs. Latitude](./output_data/Latitude vs. Wind Speed.png)
+![Wind Speed (mph) vs. Latitude](./output_data/Latitude_vs_Wind Speed.png)
 
 The second section contains code to run linear regression on each relationship. The plots for this are seperated into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
+![Northern Hemisphere - Temperature (F) vs. Latitude](./output_data/Northern_Hemisphere_Latitude_vs_Max_Temp.png)
+
 * Southern Hemisphere - Temperature (F) vs. Latitude
+![Southern Hemisphere - Temperature (F) vs. Latitude](./output_data/Southern_Hemisphere_Latitude_vs_Max_Temp.png)
+
 * Northern Hemisphere - Humidity (%) vs. Latitude
+![Northern Hemisphere - Humidity (%) vs. Latitude](./output_data/Northern_Hemisphere_Latitude_vs_Humidity.png)
+
 * Southern Hemisphere - Humidity (%) vs. Latitude
+![Southern Hemisphere - Humidity (%) vs. Latitude](./output_data/Southern_Hemisphere_Latitude_vs_Humidity.png)
+
 * Northern Hemisphere - Cloudiness (%) vs. Latitude
+![Northern Hemisphere - Cloudiness (%) vs. Latitude](./output_data/Northern_Hemisphere_Latitude_vs_Cloudiness.png)
+
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
+![Southern Hemisphere - Cloudiness (%) vs. Latitude](./output_data/Southern_Hemisphere_Latitude_vs_Cloudiness.png)
+
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+![Northern Hemisphere - Wind Speed (mph) vs. Latitude](./output_data/Northern_Hemisphere_Latitude_vs_Wind Speed_(mph).png)
+
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![Southern Hemisphere - Wind Speed (mph) vs. Latitude](./output_data/Southern_Hemisphere_Latitude_vs_Wind_Speed_(mph).png)
 
 
 ##Part II - VacationPy
